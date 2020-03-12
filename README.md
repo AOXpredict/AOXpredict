@@ -13,18 +13,16 @@ This Repository includes the model file, descriptors file and descriptions of de
 
 * ΔEinter: represents the energy difference between the prototype molecule and the intermediate, and is defined as:
 
+             ΔEinter= (ETI - Esub - Ewater) × 627.509 (kcal/mol)
 
-
-             ΔE<sub>inter</sub>= (E<sub>TI</sub> - E<sub>sub</sub> - E<sub>water</sub>) × 627.509 (kcal/mol)
-
-Where E<sub>TI</sub>, E<sub>sub</sub>, and E<sub>water</sub> are the single-point energies of the intermediate, water, and substrate, respectively. All  geometries and energies were computed using the B3LYP density functional theory method implemented in the
+Where ETI, Esub and Ewater are the single-point energies of the intermediate, water, and substrate, respectively. All  geometries and energies were computed using the B3LYP density functional theory method implemented in the
 Gaussian09 program package, in which all structures including water molecule were optimized with the 6-31G(d, p) basis set and the single-point energies were determined with the 6-311+G(2d,2p) basis set. No solvent model is considered during the calculation.
 
 * Steric: 
 
 
 
-             Steric = E<sub>2.8</sub> – E<sub>3.0/3.2</sub> (kJ/mol)
+             Steric = E2.8 – E3.0/3.2 (kJ/mol)
 
 Where E<sub>2.8</sub> represents the energy when the substrate is 2.8 Å from the probe. Whereas, E<sub>3.0/3.2</sub> represents the lowest systematic energy usually with the distance between the substrate and probe as 3.0 Å or 3.2 Å. 
 
