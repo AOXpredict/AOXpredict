@@ -31,6 +31,6 @@ Steric is calculated with Coordinate Scan in MacroModel (MacroModel, version 9.8
 * others
 
 
-The other descriptors are computed using Spartan’18 v. 1.2.0 with computational level as B3LYP/6-31G* in vacuum, which could be categorized as topological, physicochemical and electronic features. The detatiled list of all descriptors are presented in /Data/.
+The other descriptors are computed using Spartan’18 v. 1.2.0 with computational level as B3LYP/6-31G* in vacuum, which could be categorized as topological, physicochemical and electronic features. The detatiled list of all descriptors is presented in /Data/.
 
 
